@@ -1,0 +1,117 @@
+.web-cam {
+    display: flex;
+}
+.holder {
+    height: 68.7vh;
+    width: 25rem;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid var(--primary);
+    border: 2px solid black;
+}
+.webholder {
+    width: 39.7rem;
+}
+#webcam {
+    height: 68.7vh;
+    width: 39.4rem;
+}
+
+#output_canvas {
+    height: 68.7vh;
+    width: 39.4rem;
+    position: absolute;
+    top: 145px;
+    left: 115px;
+}
+.hide-pc {
+    display: none;
+}
+
+/* responsive */
+
+@media screen and (max-width: 320px) {
+    .webholder {
+        width: 18rem;
+    }
+    #webcam {
+        width: 17.4rem;
+    }
+    #output_canvas {
+        width: 17.4rem;
+        left: 20px;
+        top:5px;
+    }
+    .web-cam {
+        display: flex;
+        flex-direction: column;
+    }
+    .hide-pc {
+        display: block;
+    }
+    .consol-btn {
+        width: 18rem;
+        text-align: center;
+    }
+    .web-main {
+        margin-top: 12vh;
+    }
+    footer {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 376px) {
+    .webholder {
+        width: 21.5rem;
+    }
+    #webcam {
+        width: 20.9rem;
+    }
+    #output_canvas {
+        width: 20.9rem;
+        left: 20px;
+        top:5px;
+    }
+    .web-cam {
+        display: flex;
+        flex-direction: column;
+    }
+    .hide-pc {
+        display: block;
+    }
+    .consol-btn {
+        width: 21.5rem;
+        text-align: center;
+    }
+    .web-main {
+        margin-top: 12vh;
+    }
+}
+
+@media screen and (min-width: 378px) and (max-width: 426px) {
+    .webholder {
+        width: 24.5rem;
+    }
+    #webcam {
+        width: 23.9rem;
+    }
+    #output_canvas {
+        width: 23.9rem;
+        left: 20px;
+        top:5px;
+    }
+    .web-cam {
+        display: flex;
+        flex-direction: column;
+    }
+    .hide-pc {
+        display: block;
+    }
+    .consol-btn {
+        width: 24.5rem;
+        text-align: center;
+    }
+    .web-main {
+        margin-top: 12vh;
+    }
+}
