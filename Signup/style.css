@@ -1,0 +1,82 @@
+/* General styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0f0f2d;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Login Container */
+.login-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 350px;
+    backdrop-filter: blur(10px);
+}
+
+/* Heading */
+.login-container h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Input fields */
+.login-container input {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Placeholder color */
+.login-container input::placeholder {
+    color: #ccc;
+}
+
+/* Login button */
+.login-container button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(45deg, #ff416c, #ff4b2b);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button hover effect */
+.login-container button:hover {
+    background: linear-gradient(45deg, #ff4b2b, #ff416c);
+    transform: scale(1.05);
+}
+
+/* Signup link */
+.login-container p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.login-container a {
+    color: #ff416c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
